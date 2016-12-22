@@ -26,6 +26,8 @@ def convertToSets(problem):
                 problem[i][j] = set(nums_append)
             elif problem[i][j] != 0:
                 problem[i][j] = {problem[i][j]}
+    # pointless thing
+    x = 2
     return problem
 
 
